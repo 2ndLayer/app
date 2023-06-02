@@ -1,0 +1,48 @@
+{
+  "name": "@stacks-os/components",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "src/index.tsx",
+  "types": "src/index.tsx",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "scripts": {
+    "lint": "eslint \"**/*.ts*\"",
+    "build": "rm -rf ./dist && rollup -c --format es"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "*",
+    "postcss": "^8.4.23",
+    "purgecss": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.21.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "tsconfig": "*",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@bns-x/client": "^0.3.1",
+    "@micro-stacks/client": "^1.2.1",
+    "@micro-stacks/react": "^1.0.9",
+    "@stacks-os/ui": "*",
+    "@stacks-os/utils": "^1.0.3",
+    "@tanstack/react-query": "^4.29.5",
+    "boring-avatars": "^1.7.0",
+    "framer-motion": "^10.12.10",
+    "lucide-react": "^0.187.0",
+    "micro-stacks": "^1.2.1",
+    "postcss-import": "^15.1.0",
+    "tslib": "^2.5.0"
+  }
+}
