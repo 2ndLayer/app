@@ -16,6 +16,7 @@ interface ProposalViewProps extends React.HTMLAttributes<HTMLDivElement> {
     type?: string;
     title: string;
     description: string;
+    status?: string;
   };
 }
 
@@ -150,7 +151,7 @@ export function ProposalView({
     return <div>Proposal not found</div>;
   }
 
-  const status = getStatus(data);
+  const status = proposalData ? proposalData.status : getStatus(data);
   const { variant, color, className }: any = getBadgeProps(status);
 
   return (
