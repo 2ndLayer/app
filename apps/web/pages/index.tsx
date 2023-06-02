@@ -199,7 +199,7 @@ export default function Web() {
       <main className='max-w-7xl px-0 sm:px-8'>
         <div className='relative font-regular text-neutral-900/90 dark:text-white space-y-3'>
           <h1 className='text-3xl'>
-            Integrate faster with pre-built components.
+            Integrate quickly with pre-built components.
           </h1>
           <p className='pb-12 text-gray-300 text-md font-light'>
             Low-code, ready-to-use components for interacting with native smart
@@ -231,7 +231,7 @@ export default function Web() {
           </p>
         </div>
         <div className='flex flex-col items-center justify-center mx-auto max-w-4xl space-y-16'>
-          <div className='w-full space-y-4'>
+          {/* <div className='w-full space-y-4'>
             <div className='flex justify-between w-full items-center'>
               <div>
                 <p className='text-neutral-900 dark:text-gray-100 text-xl font-regular'>
@@ -255,7 +255,7 @@ export default function Web() {
                 />
               )}
             </div>
-          </div>
+          </div> */}
           <div className='w-full space-y-4'>
             <div className='flex justify-between w-full items-center'>
               <div>
@@ -286,7 +286,7 @@ export default function Web() {
                     <Proposal.View
                       proposalId='SP32DFA3HXYZ2BV3P8H6XQM8EN94D2212QM71BRYG.MDP-004'
                       proposalData={{
-                        title: 'Upgrade treasury contracts for pox3',
+                        title: 'Upgrade treasury contracts to pox3',
                         description: 'Proposal Description',
                         author: 'SP32DFA3HXYZ2BV3P8H6XQM8EN94D2212QM71BRYG',
                         type: 'MIP',
