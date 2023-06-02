@@ -198,10 +198,12 @@ export default function Web() {
       </div> */}
       <main className='max-w-7xl px-0 sm:px-8'>
         <div className='relative font-regular text-neutral-900/90 dark:text-white space-y-3'>
-          <h1 className='text-3xl'>Build faster with pre-built components.</h1>
+          <h1 className='text-3xl'>
+            Integrate faster with pre-built components.
+          </h1>
           <p className='pb-12 text-gray-300 text-md font-light'>
-            Quickly interact with native smart contracts on Stacks with
-            ready-to-use components. Built using{' '}
+            Low-code, ready-to-use components for interacting with native smart
+            contracts on Stacks. Built using{' '}
             <a
               href='https://www.radix-ui.com/'
               target='_blank'
@@ -288,6 +290,7 @@ export default function Web() {
                         description: 'Proposal Description',
                         author: 'SP32DFA3HXYZ2BV3P8H6XQM8EN94D2212QM71BRYG',
                         type: 'MIP',
+                        status: 'pending',
                       }}
                     />
                   </Proposal>
