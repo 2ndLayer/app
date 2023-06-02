@@ -198,16 +198,7 @@ export default function Web() {
       </div> */}
       <main className='max-w-7xl px-0 sm:px-8'>
         <div className='relative font-regular text-neutral-900/90 dark:text-white space-y-3'>
-          {/* <Heading className="text-6xl font-regular tracking-tight">
-              Second{" "}
-              <span className="bg-gradient-to-r from-indigo-600 to-indigo-400 bg-clip-text text-transparent">
-                Layer
-              </span>
-            </Heading> */}
           <h1 className='text-3xl'>Build faster with pre-built components.</h1>
-          {/* <Text className="text-neutral-900 dark:text-gray-500">
-              An opinionated UI framework for building apps on Bitcoin.
-            </Text> */}
           <p className='pb-12 text-gray-300 text-md font-light'>
             Quickly interact with native smart contracts on Stacks with
             ready-to-use components. Built using{' '}
@@ -382,36 +373,6 @@ export default function Web() {
             <div className='h-[50vh]'>
               {proposalCreateView === 'preview' ? (
                 <Card className='space-y-8 w-full'>
-                  {/* <RadioGroup defaultValue="1">
-                  <div className="space-y-4 w-full">
-                    {templates.map((template, index) => (
-                      <Label
-                        key={template.id}
-                        htmlFor={template.id}
-                        className={cn(
-                          "relative flex cursor-pointer border bg-white dark:bg-neutral-800/50 rounded-md p-4 focus:outline-none border-neutral-200 text-neutral-900 dark:text-white dark:border-neutral-800 [&:has([data-state=checked])]:bg-blue-500/5 [&:has([data-state=checked])]:border-blue-500 [&:has([data-state=checked])]:dark:bg-blue-500/5 [&:has([data-state=checked])]:dark:border-blue-500 "
-                        )}
-                      >
-                        <div className="flex items-center space-x-4">
-                          <RadioGroupItem
-                            value={template.id}
-                            id={template.id}
-                            className="border text-blue-500 border-blue-500 dark:border dark:border-blue-500 dark:text-blue-500"
-                          />
-                          <div className="flex flex-col text-sm">
-                            <span className="font-medium text-neutral-900 dark:text-white">
-                              {template.name}
-                            </span>
-                            <span className="text-neutral-900 dark:text-gray-500 font-light">
-                              {template.description}
-                            </span>
-                          </div>
-                        </div>
-                      </Label>
-                    ))}
-                  </div>
-                </RadioGroup> */}
-
                   <Proposal address='SP143YHR805B8S834BWJTMZVFR1WP5FFC00V8QTV4.core-dao'>
                     <Proposal.Create
                       transfer
